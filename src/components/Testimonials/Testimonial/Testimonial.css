@@ -1,0 +1,61 @@
+.Testimonial {
+    flex-flow: column;
+    float: left;
+    font-weight: normal;
+    margin: 0;
+    padding: 1.4%;
+    width: 33%;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 0;
+    font-size: 95%;
+    
+}
+
+.Testimonial blockquote {
+    font-style: italic;
+    line-height: 145%;
+    padding: 0;
+}
+
+.Testimonial cite {
+    display: block;
+margin-top: 25px;
+line-height: 220%;
+
+}
+
+.Testimonial cite img {
+    border-radius: 50%;
+    width: 50px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.BigQuote {
+    display: block;
+    font-size: 400%;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0;
+    margin-bottom: -50px;
+    margin-left: -15px;
+}
+
+
+
+/*  GRID OF FOUR   ============================================================================= */
+ 
+
+
+
+@media (max-width: 800px)  {
+    .Testimonial {
+        width: 94%;
+        padding-left: 3%;
+        
+    }
+    .Testimonial cite {
+float: right;    
+    }
+}

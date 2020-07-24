@@ -1,0 +1,77 @@
+
+.Input {
+  width: 100%;
+  padding: 5px 0;
+  box-sizing: border-box;
+  display: inline-block;
+  font-weight: 300;
+  float: left;
+  font-size: 90%;
+}
+
+
+.Label {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 8px;
+  float: left;
+  font-weight: 300;
+  width: 30%;
+}
+
+.Element {
+  display: inline-block;
+  width: 70%;
+}
+
+.Input span {
+  font-size: 75%;
+}
+/*
+.Element :focus {
+  border: 1px solid rgb(47, 175, 15);
+}
+*/
+.Element input, select, textarea, input[type="text"]  {
+  
+  border-radius: 4px;
+  outline: none;
+  font: inherit;
+  padding: 6px 10px;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid rgb(169, 169, 169);
+}
+
+.Element textarea{
+  display: inline-block;
+  height: 100px;
+}
+
+
+.Element input[type="checkbox"]  {
+  width: auto;
+  padding: 2%;
+}
+
+
+
+
+.Label2 {
+  margin-left: 1.5%;
+}
+
+.InputElement:focus {
+  outline: none;
+  background-color: #ccc;
+}
+
+.Invalid {
+  border: 1px solid rgb(193, 53, 21) !important;
+  background-color: rgba(193, 53, 21, 0.068);
+  
+  
+}
+
+/*
+*/

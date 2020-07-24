@@ -1,0 +1,54 @@
+.Button {
+    display: inline-block;
+    padding: 10px 30px;
+font-weight: 100;
+font-size: 1.2rem;
+border-radius: 200px;
+text-decoration: none;
+word-spacing: normal;
+}
+
+.Button:first-of-type {
+  display: inline-block;
+}
+
+.Button:hover {
+cursor: pointer;}
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
+
+.Button:disabled {
+    color: #ccc;
+    background-color:#555;
+    border: 1px solid #555;
+
+}
+
+.Important {
+    background-color:#e67e22;
+    border: 1px solid #e67e22;
+margin: 0;
+    color:white;
+    font-weight: 100;
+
+}
+
+
+
+
+
+.Ghost {
+    background-color: transparent;
+
+    border: 1px solid #e67e22;
+    color:#e67e22;
+    font-weight: 100;
+    
+
+}

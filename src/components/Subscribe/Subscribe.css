@@ -1,0 +1,51 @@
+
+.Subscribe {
+    display: inline-block;
+    font-weight: 300;
+    width: 100%;
+    margin: 0;
+padding: 50px 5% 40px 5%;
+    background-color: #f4f4f4;
+    
+}
+
+
+
+
+.Subscribe h2{
+    margin-top: 5%;
+       text-transform: uppercase; 
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        font-weight: 300;
+        font-size: 165%;
+        text-align: center;  
+        text-transform: uppercase;
+}
+
+.Subscribe h2::after{
+display: block;
+height: 2px;
+background-color: #e67e22;
+content: "";
+width: 120px;
+margin: 30px auto;
+}
+
+
+
+
+
+
+/*  GRID OF FOUR   ============================================================================= */
+  
+
+@media (max-width: 800px) {
+
+    .Subscribe {
+        padding-left: 4%;
+        padding-right: 4%;
+        margin-bottom: 2%;
+        }
+        
+}

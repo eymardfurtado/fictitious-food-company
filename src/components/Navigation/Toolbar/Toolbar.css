@@ -1,0 +1,99 @@
+/* ------------------------- */
+/* Basic Setup */
+/* ------------------------- */
+
+.Toolbar {
+  background-image: linear-gradient(
+      rgb(0, 0, 0, 0.6),
+      rgb(0, 0, 0, 0.4),
+      rgb(0, 0, 0, 0.4),
+      rgb(0, 0, 0, 0.6)
+    ),
+    url(./../../../assets/images/hero.jpg);
+  background-size: cover;
+  min-height: 45vh;
+}
+
+.logo {
+  display: none;
+}
+
+.HeroTextBox {
+  padding: 150px 10px 30px 18%;
+
+  width: auto;
+}
+
+.HeroTextBox button {
+  margin: 0 10px 2% 0;
+  width: 180px;
+}
+
+.HeroTextBox h6 {
+  margin: 0 0 15px 0;
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  font-weight: 300;
+}
+
+@media (max-width: 950px) {
+  .HeroTextBox {
+    padding-left: 15%;
+  }
+
+  .HeroTextBox h6 {
+    font-size: 1.8em;
+  }
+}
+
+.StickyNav {
+  display: grid;
+  grid-template-columns: 40% 60%;
+
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+
+  /* box-shadow: 0 -10px 20px #515151; */
+  z-index: 9999;
+
+  transition: background-color 0.2s;
+}
+
+.disclaimer {
+  color: rgb(235, 235, 235);
+  padding: 4%;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 110%;
+  background-color: rgba(0, 0, 0, 0.459);
+}
+@media (max-width: 520px) {
+  .Toolbar {
+    background-position: 40% 100%;
+  }
+
+  .logo {
+    display: inline-block;
+    float: right;
+  }
+
+  .HeroTextBox {
+    padding-left: 10%;
+  }
+  .HeroTextBox h6 {
+    font-size: 1.5em;
+  }
+  .DesktopOnly {
+    display: none;
+  }
+  .HeroTextBox button {
+    display: block;
+  }
+}

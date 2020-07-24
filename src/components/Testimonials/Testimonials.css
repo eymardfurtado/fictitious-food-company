@@ -1,0 +1,57 @@
+
+.Testimonials {
+    padding: 50px 10px;
+    display: inline-block;
+    flex-flow: row;
+
+font-weight: 300;
+color: white;
+width: 100%;
+background-color:white;
+
+     background-image: 
+     linear-gradient(rgb(0, 0, 0, 0.8),rgb(0, 0, 0, 0.8)), 
+     url(../../assets/images/back-customers.jpg );
+    background-size: cover;
+
+
+}
+
+
+
+
+.Testimonials h2{
+       text-transform: uppercase; 
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        font-weight: 300;
+        font-size: 165%;
+        text-align: center;  
+        text-transform: uppercase;
+}
+
+.Testimonials h2::after{
+display: block;
+height: 2px;
+background-color: #e67e22;
+content: "";
+width: 120px;
+margin: 30px auto;
+}
+
+
+
+
+
+
+/*  GRID OF FOUR   ============================================================================= */
+  
+
+@media (max-width: 800px) {
+
+    .Testimonials {
+        padding-left: 4%;
+        padding-right: 4%;
+        }
+        
+}

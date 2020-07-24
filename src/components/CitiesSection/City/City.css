@@ -1,0 +1,150 @@
+.Features {
+
+    font-weight: normal;
+    padding:0;
+    margin: 0;
+    
+}
+
+.Features  p{
+    padding:0;
+    margin: 0 0 0 10px;
+
+    font-size: 90%;
+
+font-weight: 300;;
+    width: 100%;
+    display: block;
+}
+
+.City {
+    flex-flow: column;
+    float: left;
+    padding: 0;
+    margin: 1.5%; 
+    width: 22%;
+    margin-top: 40px;
+}
+
+.Features ion-icon {
+    margin-top: 8px;
+    display: block;
+    float: left;
+    font-size: 16px;
+    padding-right: 7px;
+    --ionicon-stroke-width: 20px;
+    color: #e67e22;
+
+}
+
+
+.Icon {
+    font-weight: normal;
+}
+.Picture {
+    text-align: center;
+    margin-bottom: 5px;
+    }
+.City img{
+    width: 100%;
+}
+
+.Features a {
+    font-size: 80%;
+    color: #e67e22;
+text-decoration: none;
+border-bottom: 1px solid;
+font-weight: 300;
+margin: 0;
+    transition: color 0.2s, border 0.2s;
+   
+}
+
+.Features a:hover {
+    border-bottom: 1px solid transparent;
+    color: #555;
+    transition: color 0.2s, border 0.2s;
+
+}
+.CityName {
+margin-bottom: 10px;
+padding:0;
+font-weight: 300;
+font-size: 110%;
+text-transform: uppercase;
+}
+    
+/*
+.SectionItem h3 {
+    margin: inherit;
+    padding: inherit;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.SectionItem ion-icon {
+    margin: inherit;
+    padding: inherit;
+    font-size: 54px;
+    --ionicon-stroke-width: 20px;
+    margin-bottom: 5%;
+    color: #e67e22;
+
+}
+
+
+ 
+
+.SectionItem p {
+    font-size: 90%;
+    margin: inherit;
+    padding: inherit;
+    text-align: justify;
+    font-weight: 300;
+
+}
+/*  GRID OF FOUR   ============================================================================= */
+ 
+/*
+ 
+@media (max-width: 1000px) and (min-height: 601px) {
+    .SectionItem {
+        flex-flow: column;
+        width: 46%;
+        margin: 0% 2%;
+        margin-bottom: 5%;
+        padding: 0;
+        align-items: center;
+    }
+}
+
+*/
+ 
+@media (max-width: 900px)  {
+    .City {
+        width: 100%;
+        
+    }
+}
+
+
+
+/*
+
+@media (max-width: 900px) and (min-height: 701px) {
+    .SectionItem {
+        flex-flow: column;
+        min-width: 45%;
+        
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .SectionItem {
+        flex-flow: row;
+        width: 20%;
+
+    }
+}
+
+*/

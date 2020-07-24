@@ -1,0 +1,85 @@
+.CitiesSection {
+  display: inline-block;
+  flex-flow: row;
+
+  font-weight: 300;
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: white;
+}
+
+.CitiesSection h2 {
+  margin-top: 6%;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  font-weight: 300;
+  font-size: 165%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.CitiesSection h2::after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: "";
+  width: 120px;
+  margin: 30px auto;
+}
+
+.CitiesSection p {
+  width: 70%;
+  margin-bottom: 5%;
+}
+
+.dividingLine {
+  width: 10%;
+  border-bottom: 2px solid #e67e22;
+  align-items: center;
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+@media (max-width: 600px) and (min-height: 200px) {
+  .Col1 {
+    width: 100%;
+    float: none;
+    padding-left: 10%;
+    padding-right: 20%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .Col2 {
+    width: 100%;
+    float: none;
+    padding: 5%;
+  }
+  .Col2 img {
+    margin: 1%;
+  }
+}
+@media (max-width: 1000px) and (min-height: 599px) {
+  .Col1 img {
+    width: 80%;
+  }
+  .Col2 img {
+    margin: 1%;
+  }
+}
+/*
+
+@media (max-width: 1200px) and (min-height: 000px) {
+    .CitiesSection {
+        width: 100%;
+        }
+        
+        .CitiesSection p {
+            width: 86%;
+          }
+}  
+*/

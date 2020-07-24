@@ -1,0 +1,58 @@
+
+.StickyNav {
+    padding: 0 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+      
+    /* box-shadow: 0 -10px 20px #515151; */
+        z-index: 9999;
+        
+        transition: background-color 0.2s;
+    }
+    
+    .HeaderItems {
+        display: flex;
+        flex-direction: row;
+        float: right    ;
+        text-decoration: none;
+        list-style: none;
+        list-style-type: none;
+    }
+    .StickyNav li { 
+        color: #f5f5f7;
+        transition: color 0.2s;
+        float: left;
+        padding: 5px 10px 5px 0;
+        margin-top: 12px;
+        margin-right: 10px;
+    
+    }
+    
+    
+
+
+
+
+@media (max-width: 519px) {
+    
+    .HeaderItems {
+        flex-flow: column;
+        float: right;
+    }
+    
+   
+    .StickyNav {
+        flex-flow: column;
+        background-color: white;
+        padding-top: 40px;
+
+    }
+
+   
+
+
+    
+}

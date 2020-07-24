@@ -1,0 +1,91 @@
+
+.Section {
+    display: block;
+font-weight: 300;
+width: 100%;
+padding: 20px 5% 40px 5%;
+}
+
+
+.marginDiv {
+    margin-bottom: 1%;
+    color: transparent;
+display: block;
+}
+.SectionHeader h2{
+    margin-top: 4%;
+
+       text-transform: uppercase; 
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        font-weight: 300;
+        text-align: center;  
+}
+
+.SectionHeader h2::after{
+display: block;
+height: 2px;
+background-color: #e67e22;
+content: "";
+width: 199px;
+margin: 30px auto;
+}
+
+.SectionHeader p {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+
+}
+.Section h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.dividingLine {
+    width: 10%;
+    border-bottom: 2px solid #e67e22;
+    align-items: center;
+}
+
+
+  
+
+
+
+
+/*  GRID OF FOUR   ============================================================================= */
+  
+@media (max-width: 601px) and (min-height: 500px) {
+    .Section {
+    width: 100%;
+    padding: 40px 1% 30px 1%;
+    }
+    .Section h2 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 901px) and (min-height: 600px) {
+    .Section {
+        width: 100%;
+        padding: 40px 1% 30px 1%;
+        }
+        .SectionHeader p {
+            width: 80%;
+            margin-left: 10%;
+            
+          }
+} 
+
+@media (max-width: 1200px) and (min-height: 000px) {
+    .Section {
+        width: 100%;
+        padding: 60px 1% 30px 1%;
+        }
+        
+        .SectionHeader p {
+            width: 86%;
+            margin-left: 7%;
+          }
+}  
