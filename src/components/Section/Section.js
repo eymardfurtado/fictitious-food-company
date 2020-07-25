@@ -9,7 +9,8 @@ const Section = (props) => {
             <div className={classes.SectionHeader}>
                 <h2 className={classes.myh2}>Get food fast — not fast food.</h2>
                 <p>Hello! Omnifood is a <strong><u>fictitious</u></strong> meal delivery company used to built this site as a sample of my work  — 
-                built with React JS and Firebase. You can reach me at EymardFurtado@hotmail.com or contact me through the contact form here. </p>
+                built with React JS and Firebase. You can reach me at &nbsp;
+ <a href = "mailto: EymardFurtado@gmail.com">EymardFurtado@gmail.com</a> or contact me through the contact form here. </p>
             </div>
 
             <SectionItem
